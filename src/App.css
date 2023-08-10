@@ -1,0 +1,339 @@
+.navbar1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+}
+
+.navimg img {
+  height: 30vh;
+  width:30vh;
+}
+
+.navbar {
+  text-align: right;
+  padding-bottom: 20vh;
+  padding-right: 5vh;
+}
+
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li{
+  display: inline-block;
+  margin-left: 20px; 
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+}
+
+
+.main{
+  color: white;
+  font-size: 40px;
+  padding-left: 25px;
+  font-weight: 100;
+
+  
+}
+
+.main1 p{
+  color: white;
+  font-size:25px;
+  padding-bottom: 40px;
+  padding-left: 25px;
+  margin-top: -10vh;
+ 
+ 
+}
+
+.mainimg{
+  height: 5vh;
+margin-bottom: 50vh;
+ 
+}
+
+.mainimg img{
+  height: 90vh;
+  width:100vh;
+  padding-left: 20px ;
+  padding-right: 20px;
+  margin-top: -7vh;
+ 
+
+}
+
+.content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -5vh;
+
+}
+.Creators{
+  display: none;
+}
+
+.boximg{
+  display: none;
+}
+.gallery img{
+  display: none;
+}
+.featured-1{
+
+ display: none;
+  
+}
+
+.featured-2{
+display: none;
+}
+
+.footerline img{
+  display: none;
+}
+
+.footerhead {
+  display: none;
+}
+
+.input-button-container {
+  display: none;
+  
+  
+  
+}
+
+
+
+.socialcontainer{
+  display: none;
+ 
+ 
+}
+
+
+.mediainquiries{
+  display: none;
+}
+
+.rights p{
+  display: none;
+}
+
+@media (max-width: 1150px){
+   .Creators{
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+
+   }
+
+   .mainimg{
+    display: none;
+   }
+   .main{
+    color: white;
+    font-size: 30px;
+    padding-left: 25px;
+    font-weight: 100;
+  
+    
+  }
+  
+  .main1 p{
+    color: white;
+    font-size:20px;
+    padding-bottom: 40px;
+    padding-left: 25px;
+     margin-top: -10px
+   
+   
+  }
+ 
+  .box1 {
+    width: auto;
+    height: 150px;
+    margin-right: 5px;
+    padding: 1rem;
+    position: relative;
+    border: 3px solid transparent;
+    border-image: linear-gradient(to right, rgb(255, 3, 154), rgb(0, 0, 0)) 1;
+    margin-top: 30px;
+    background-color: rgb(8, 2, 44);
+    border-radius: 10px;
+    margin-left: 10px;
+  }
+  
+
+   .boximg{
+    display: flex;
+    
+   }
+ 
+   .arrow{
+    padding-left: 30px;
+    height: 7px;
+    width: 7px;
+   }
+   .description{
+    color: white;
+    width: 300px;
+
+   }
+   .gallery{
+  
+    width: 100%;
+    height: 20vh;
+     overflow: hidden;
+     margin-top: 0vh;
+     margin-bottom: 0px;
+     
+  }
+  
+  .gallery img{
+    margin: 10px;
+    height:10vh ;
+    width:15vh;
+    display:flex;
+    padding: 5px;
+  }
+  
+  .row {
+    display: flex;
+    animation: scroll 10s infinite;
+  }
+  @keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-60%);
+    }
+}
+
+.featured-1{
+  display: flex;
+  width: 40vh;
+  margin: 0 auto;
+  
+}
+.featured-1 img{
+  height: 5vh;
+  width:17vh;
+  margin: 10px;
+ 
+}
+.featured-2{
+ margin-left: 20vh;
+ display: flex;
+ padding-bottom: 10px;
+
+
+}
+.autom{
+  display: flex;
+  margin: 0 auto;
+
+}
+.featured-2 img{
+  height: 5vh;
+  width:17vh;
+
+}
+
+.footerline img{
+  padding-bottom: 10px;
+  width:100%;
+}
+
+.footerhead {
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  margin-bottom: -70px;
+}
+
+.input-button-container {
+  display: flex;
+  align-items: center;
+  width: auto;
+  padding-top: 10vh;
+  padding-bottom: 3vh;
+  margin: 0 auto;
+  
+  
+}
+
+.input-area {
+  flex: 1;
+  border: none;
+  border-bottom: 1px solid #5a24cc;
+  outline: none;
+  padding: 5px;
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+}
+
+.button {
+  padding: 9px 15px;
+  background-color: #5a24cc;
+  color: white;
+  border: none;
+
+  cursor: pointer;
+}
+
+.socialcontainer{
+  display: flex;
+  justify-content: center;
+ 
+}
+.socials{
+  width: 200px;
+
+ 
+}
+.socials ul{
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+   
+
+}
+.socials li{
+  color: white;
+  margin: 5px;
+  text-align: center;
+}
+.mediainquiries{
+  display: flex;
+}
+.mediainquiries p{
+  color: white;
+  font-size: 11px;
+  margin-left:10px ;
+ 
+}
+
+.mediainquiries a{
+padding-top: 7px;
+padding-left: 7px;
+}
+.rights p{
+  color: white;
+  font-size: 9px;
+  text-align: center;
+  display: block;
+}
+
+  
+}
